@@ -1,0 +1,464 @@
+h1, h2, h3, li, ul, p, a, img{
+   margin: 0;
+   padding: 0;
+}
+a{
+   line-height: 0;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+.overflow{
+   overflow: hidden;
+}
+
+
+
+.hero {
+   position: relative;
+   width: 480px;
+   margin: 0 auto;
+}
+.hero-image {
+   display: block;
+}
+.hero-title{
+   position: absolute;
+   top: 15px;
+   left: 50%;
+   transform: translateX(-50%);
+
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 75px;
+   color: white;
+   text-align: center;
+   white-space: nowrap;
+}
+
+.hero-text {
+   position: absolute;
+   top: 100px;
+   left: 50%;
+   transform: translateX(-50%);
+
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: white;
+}
+
+
+
+.invitation {
+   width: 480px;
+   margin: 0 auto;
+   padding-top: 100px;
+   background-color: #FAF6F3;
+}
+.invitation-title {
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 95px;
+   color: #453020;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.invitation-text-title {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 35px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #453020;
+   margin-bottom: 20px;
+}
+.invitation-text {
+   font-family: "Poiret One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #453020;
+}
+.invitation-line {
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 0 auto;
+}
+.foto-thumb {
+   margin-top: 30px;
+   width: 480px;
+   height: 300px;
+
+}
+.foto {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+
+
+.location {
+   width: 480px;
+   margin: 0 auto;
+   padding-top: 100px;
+   background-color: #FAF6F3;
+}
+.location-title {
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 95px;
+   color: #453020;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.location-text-uppercase {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #453020;
+}
+.location-text {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 25px;
+   text-align: center;
+   color: #453020;
+   margin-bottom: 70px;
+}
+.location-button{
+   display: block;
+   width: 270px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #453020;
+   text-decoration: none;
+   border-bottom: 1px solid #453020;
+   padding-bottom: 15px;
+}
+
+
+
+.taming {
+   width: 480px;
+   margin: 0 auto;
+   padding-top: 100px;
+   background-color: #FAF6F3;
+}
+.taming-title {
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 95px;
+   color: #453020;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.taming-list {
+   list-style-type: none;
+   width: 360px;
+   margin: 0 auto;
+
+}
+.taming-item {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin-bottom: 45px;
+
+}
+.taming-left-side {
+}
+.taming-number {
+   font-family: "Babylonica", cursive;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 35px;
+   color: #453020;
+
+   writing-mode: vertical-lr;
+}
+.taming-line {
+   display: block;
+   height: 90px;
+}
+.taming-right-side {
+}
+.taming-subtitle {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #453020;
+}
+.taming-text {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   color: #453020;
+}
+
+
+
+
+.dresscode {
+   width: 480px;
+   margin: 0 auto;
+   padding: 100px 50px 0 50px;
+   background-color: #FAF6F3;
+}
+.dresscode-title {
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 95px;
+   color: #453020;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.dresscode-text {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #453020;
+   margin-bottom: 30px;
+}
+.dresscode-subtitle {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #453020;
+   margin-bottom: 30px;
+}
+.dresscode-list {
+   list-style-type: none;
+   display: flex;
+   gap: 5px;
+   width: 375px;
+   margin: 0 auto;
+
+}
+.dresscode-item {
+   width: 90px;
+   height: 35px;
+}
+.dresscode-item:nth-child(1){
+   background-color: #514940;
+}
+.dresscode-item:nth-child(2){
+   background-color: #a79782;
+}
+.dresscode-item:nth-child(3){
+   background-color: #bcc5ac;
+}
+.dresscode-item:nth-child(4){
+   background-color: #e3d9d2;
+}
+
+
+
+
+
+.details {
+   width: 480px;
+   margin: 0 auto;
+   padding-top: 100px;
+   background-color: #FAF6F3;
+}
+.details-title {
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 95px;
+   color: #453020;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.details-text {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #453020;
+   margin-bottom: 30px;
+}
+.details-image {
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+.registration {
+   width: 480px;
+   margin: 0 auto;
+   padding: 100px 50px 50px 50px;
+   background-color: #FAF6F3;
+}
+.registration-title {
+   font-family: "Babylonica", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 95px;
+   color: #453020;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.registration-text {
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #453020;
+   margin-bottom: 30px;
+}
+
+.registration-form {
+   margin-bottom: 80px;
+}
+.form-field {
+   margin-bottom: 15px;
+}
+.form-input {
+   width: 100%;
+   height: 50px;
+   font-size: 20px;
+   border: 1px solid #453020;
+   border-radius: 8px;
+   padding: 2px 15px;
+   outline: none;
+   background-color: transparent;
+}
+.form-input::placeholder{
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #453020;
+}
+.checkbox-label {
+   display: flex;
+   align-items: center;
+   font-family: "Poiret One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   color: #453020;
+   margin-bottom: 15px;
+}
+.checkbox-input:checked + .custom-checkbox > .checkbox-icon{
+   display: block;
+}
+.custom-checkbox{
+   position: relative;
+   display: block;
+   width: 30px;
+   height: 30px;
+   border: 1px solid #453020;
+   border-radius: 4px;
+   margin-right: 15px;
+}
+.checkbox-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   width: 15px;
+   height: 15px;
+   background-color: #514940;
+   border-radius: 2px;
+}
+
+.registration-btn {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 25px;
+   color: white;
+   text-transform: uppercase;
+
+   width: 100%;
+   height: 50px;
+   border: 2px solid #514940;
+   border-radius: 4px;
+   background-color: #514940;
+}
+
+
+.registration-foto{
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+
+footer{
+   width: 480px;
+   margin: 0 auto;
+   background-color: #514940;
+}
+.footer-link{
+   text-decoration: none;
+}
+.footer-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   padding: 10px 0;
+}
+.footer-text {
+   font-family: "Amatic SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+   margin-right: 15px;
+}
+.footer-icon {
+   display: block;
+}
+
